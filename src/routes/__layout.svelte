@@ -9,7 +9,7 @@
 <svelte:head />
 
 <div class:dark class="bg-white dark:bg-black">
-	<div class="bg-white dark:bg-black dark:text-white h-screen mx-auto lg:px-2">
+	<div class="mx-auto h-screen bg-white dark:bg-black dark:text-white lg:px-2">
 		<Navbar bind:dark />
 		<main>
 			<slot />
