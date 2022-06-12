@@ -7,6 +7,9 @@
 }
 
 @layer base {
+	code {
+		@apply font-firacode;
+	}
 	@font-face {
 		font-family: 'FiraCode';
 		src: local('FiraCode Bold'), url('/static/fonts/FiraCode-Bold.woff2') format('woff2');

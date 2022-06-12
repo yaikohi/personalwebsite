@@ -11,26 +11,22 @@
 				hello
 			</h1>
 			<div class="pt-6 text-slate-800 dark:text-white">
-				<p class="mb-4 ">
-					I currently work as a full-time intern at
-					<a
-						href="https://pttrns.ai"
-						class="font-bold transition-colors hover:text-violet-500 dark:hover:text-violet-300"
-						target="_blank"
-						rel="noopener"
-						>PTTRNS.ai
-					</a>
-					while being a full-time student at the university of applied sciences in Utrecht.
-				</p>
-				<p class="pb-4">yeah🚀🚀🚀</p>
 				<section>
-					<h2 class="py-2 text-2xl">
-						My current <code
-							class="bg-slate-100  font-firacode text-slate-800 dark:bg-slate-800 dark:text-slate-100"
-							>state</code
-						> of affairs
-					</h2>
-					<p class="pb-4">working on this website rn</p>
+					<p class="mb-4 ">
+						I currently work as a full-time intern at
+						<a
+							href="https://pttrns.ai"
+							class="font-bold transition-colors hover:text-violet-500 dark:hover:text-violet-300"
+							target="_blank"
+							rel="noopener"
+							>PTTRNS.ai
+						</a>
+						while being a full-time student at the university of applied sciences in Utrecht.
+					</p>
+					<p class="pb-4">yeah🚀🚀🚀</p>
+				</section>
+				<section>
+					<p class="pt-8 text-xs italic font-firacode font-light">I'm working on this website rn</p>
 				</section>
 			</div>
 		</div>
