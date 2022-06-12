@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+	box-sizing: border-box;
+}
+
+@layer base {
+	code {
+		@apply font-firacode;
+	}
+	@font-face {
+		font-family: 'FiraCode';
+		src: local('FiraCode Bold'), url('/static/fonts/FiraCode-Bold.woff2') format('woff2');
+	}
+	@font-face {
+		font-family: 'FiraCode';
+		src: local('FiraCode Semi Bold'), url('/static/fonts/FiraCode-SemiBold.woff2') format('woff2');
+	}
+	@font-face {
+		font-family: 'FiraCode';
+		src: local('FiraCode Medium'), url('/static/fonts/FiraCode-Medium.woff2') format('woff2');
+	}
+	@font-face {
+		font-family: 'FiraCode';
+		src: local('FiraCode Regular'), url('/static/fonts/FiraCode-Regular.woff2') format('woff2');
+	}
+	@font-face {
+		font-family: 'FiraCode';
+		src: local('FiraCode Light'), url('/static/fonts/FiraCode-Light.woff2') format('woff2');
+	}
+}

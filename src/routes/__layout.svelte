@@ -6,8 +6,6 @@
 	let dark = true;
 </script>
 
-<svelte:head />
-
 <div class:dark class="bg-white dark:bg-black">
 	<div class="mx-auto h-screen bg-white dark:bg-black dark:text-white lg:px-2">
 		<Navbar bind:dark />
