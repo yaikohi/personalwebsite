@@ -2,7 +2,11 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			fontFamily: {
+				firacode: ['Fira Code']
+			}
+		}
 	},
 	plugins: [],
 	darkMode: 'class'
