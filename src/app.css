@@ -10,6 +10,15 @@
 	code {
 		@apply font-firacode;
 	}
+
+	h1 {
+		@apply text-3xl;
+	}
+
+	h2 {
+		@apply text-xl;
+	}
+
 	@font-face {
 		font-family: 'FiraCode';
 		src: local('FiraCode Bold'), url('/static/fonts/FiraCode-Bold.woff2') format('woff2');
