@@ -2,7 +2,7 @@
 	import Image from '../lib/components/Image.svelte';
 </script>
 
-<div class="container mx-auto px-6 md:max-w-xl lg:max-w-4xl ">
+<div class="container relative z-10 mx-auto px-6 md:max-w-xl lg:max-w-4xl">
 	<div class="flex flex-col items-center space-x-8 md:px-0 lg:flex lg:flex-row lg:text-left">
 		<div class=" pb-4 lg:pb-0">
 			<h1
