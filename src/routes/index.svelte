@@ -26,7 +26,7 @@
 					<p class="pb-4">yeah🚀🚀🚀</p>
 				</section>
 				<section>
-					<p class="py-8 text-xs italic font-firacode font-light">I'm working on this website rn</p>
+					<p class="py-8 font-firacode text-xs font-light italic">I'm working on this website rn</p>
 				</section>
 			</div>
 		</div>
