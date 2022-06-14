@@ -31,7 +31,7 @@
 			</div>
 		</div>
 		<div class="mb-10 flex-shrink-0 px-2 pt-4 lg:px-4 lg:pt-12">
-			<Image src="/images/me_irl.jpg" />
+			<Image src="/images/me_irl.jpg" alt="me" />
 		</div>
 	</div>
 </div>

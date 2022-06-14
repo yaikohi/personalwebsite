@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 
 	export let src: string;
+	export let alt: string;
 
 	let loaded = false;
 	let failed = false;
@@ -25,7 +26,7 @@
 </script>
 
 {#if loaded}
-	<img {src} alt="me" class="rounded-full sm:max-w-[200px] md:max-w-[400px] lg:max-w-sm" />
+	<img {src} {alt} class="rounded-full sm:max-w-[200px] md:max-w-[400px] lg:max-w-sm" />
 {:else if failed}
 	<img src="https://icon-library.com/images/not-found-icon/not-found-icon-20.jpg" alt="Not Found" />
 {:else if loading}
