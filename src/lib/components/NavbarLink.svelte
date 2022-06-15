@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let linksTo: string;
+	export let linksTo: string
 </script>
 
 <li>

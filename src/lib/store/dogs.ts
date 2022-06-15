@@ -1,13 +1,13 @@
-import { writable } from 'svelte/store';
+import { writable } from 'svelte/store'
 
-export const dogs = writable([]);
+export const dogs = writable([])
 
 export const fetchDogImages = async () => {
-	const URL = 'https://dog.ceo/api/breed/leonberg/images/';
-	const response = await fetch(URL);
-	const data = await response.json();
+	const URL = 'https://dog.ceo/api/breed/leonberg/images/'
+	const response = await fetch(URL)
+	const data = await response.json()
 
-	dogs.set(data.message);
-};
+	dogs.set(data.message)
+}
 
-fetchDogImages();
+fetchDogImages()

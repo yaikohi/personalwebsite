@@ -1,6 +1,6 @@
 <script lang="ts">
-	import NavbarLink from './NavbarLink.svelte';
-	export let dark: boolean;
+	import NavbarLink from './NavbarLink.svelte'
+	export let dark: boolean
 </script>
 
 <nav class="sticky top-0 z-20 mx-auto  py-6 sm:px-6 ">
@@ -10,7 +10,7 @@
 		<button
 			class="text-black dark:text-white md:text-xl"
 			on:click|preventDefault={() => {
-				dark = !dark;
+				dark = !dark
 			}}>{dark ? 'day☀️' : 'night🌑'}</button
 		>
 	</ul>

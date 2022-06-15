@@ -1,10 +1,10 @@
 export const get = () => {
 	return {
 		body: {
-			data: images
-		}
-	};
-};
+			data: images,
+		},
+	}
+}
 
 const images = [
 	'https://images.dog.ceo/breeds/leonberg/n02111129_1.jpg',
@@ -216,5 +216,5 @@ const images = [
 	'https://images.dog.ceo/breeds/leonberg/n02111129_970.jpg',
 	'https://images.dog.ceo/breeds/leonberg/n02111129_974.jpg',
 	'https://images.dog.ceo/breeds/leonberg/n02111129_976.jpg',
-	'https://images.dog.ceo/breeds/leonberg/n02111129_990.jpg'
-];
+	'https://images.dog.ceo/breeds/leonberg/n02111129_990.jpg',
+]

@@ -1,31 +1,31 @@
 <script context="module" lang="ts">
-	import type { Load } from '@sveltejs/kit';
+	import type { Load } from '@sveltejs/kit'
 	export const load: Load = async ({ params }) => {
-		const id = params.id;
+		const id = params.id
 
-		const response = await fetch('blog.json');
-		const json = await response.json();
-		const images = json.data;
-		const image = images[id];
-		console.log(image);
-		console.log(images);
+		const response = await fetch('blog.json')
+		const json = await response.json()
+		const images = json.data
+		const image = images[id]
+		console.log(image)
+		console.log(images)
 
 		return {
 			props: {
 				id,
-				image
-			}
-		};
-	};
+				image,
+			},
+		}
+	}
 </script>
 
 <script lang="ts">
-	import { posts } from '$lib/store/posts';
-	import type { IPost } from '$lib/types/blogposts';
+	import { posts } from '$lib/store/posts'
+	import type { IPost } from '$lib/types/blogposts'
 
-	export let id: string;
-	export let image: string;
-	export let blogPost: IPost = $posts.filter((post) => post.id === parseInt(id))[0];
+	export let id: string
+	export let image: string
+	export let blogPost: IPost = $posts.filter((post) => post.id === parseInt(id))[0]
 </script>
 
 <div class="container mx-auto px-6 md:max-w-xl lg:max-w-4xl ">

@@ -1,21 +1,21 @@
 <script context="module" lang="ts">
-	import type { Load } from '@sveltejs/kit';
+	import type { Load } from '@sveltejs/kit'
 	export const load: Load = async ({ fetch }) => {
-		const response = await fetch('blog.json');
-		const json = await response.json();
-		const images = json.data;
+		const response = await fetch('blog.json')
+		const json = await response.json()
+		const images = json.data
 		return {
 			props: {
-				images
-			}
-		};
-	};
+				images,
+			},
+		}
+	}
 </script>
 
 <script lang="ts">
-	import { posts } from '$lib/store/posts';
+	import { posts } from '$lib/store/posts'
 
-	export let images: any;
+	export let images: any
 </script>
 
 <div class="container mx-auto grid-cols-1 md:max-w-xl lg:max-w-6xl">

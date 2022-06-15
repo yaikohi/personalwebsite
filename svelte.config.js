@@ -1,6 +1,6 @@
-import adapter from '@sveltejs/adapter-auto';
-import preprocess from 'svelte-preprocess';
-import { resolve } from 'path';
+import adapter from '@sveltejs/adapter-auto'
+import preprocess from 'svelte-preprocess'
+import { resolve } from 'path'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,8 +8,8 @@ const config = {
 	// for more information about preprocessors
 	preprocess: [
 		preprocess({
-			postcss: true
-		})
+			postcss: true,
+		}),
 	],
 
 	kit: {
@@ -19,11 +19,11 @@ const config = {
 				alias: {
 					$components: resolve('./src/lib/components'),
 					$lib: resolve('./src/lib'),
-					$store: resolve('./src/lib/store')
-				}
-			}
-		}
-	}
-};
+					$store: resolve('./src/lib/store'),
+				},
+			},
+		},
+	},
+}
 
-export default config;
+export default config

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Image from '../lib/components/Image.svelte';
+	import Image from '../lib/components/Image.svelte'
 </script>
 
 <div class="container relative z-10 mx-auto px-6 md:max-w-xl lg:max-w-4xl">

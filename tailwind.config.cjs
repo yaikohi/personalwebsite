@@ -4,10 +4,10 @@ module.exports = {
 	theme: {
 		extend: {
 			fontFamily: {
-				firacode: ['Fira Code']
-			}
-		}
+				firacode: ['Fira Code'],
+			},
+		},
 	},
 	plugins: [],
-	darkMode: 'class'
-};
+	darkMode: 'class',
+}

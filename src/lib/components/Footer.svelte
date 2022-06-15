@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FooterLink from './FooterLink.svelte';
+	import FooterLink from './FooterLink.svelte'
 </script>
 
 <footer class="lg:bt-18 t-12 bg-white py-6 dark:bg-black sm:py-12 sm:pb-36">
