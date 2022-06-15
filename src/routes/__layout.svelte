@@ -6,10 +6,10 @@
 	let dark = true
 </script>
 
-<div class:dark class="bg-white dark:bg-black">
-	<div class="absolute inset-0 z-0 h-screen w-screen bg-white dark:bg-black" />
+<div class:dark class="min-h-screen bg-white dark:bg-slate-900">
+	<div class="absolute inset-0 z-0 h-screen w-screen bg-white dark:bg-slate-900" />
 
-	<div class="relative z-20 mx-auto h-full bg-white dark:bg-black dark:text-white lg:px-2">
+	<div class=" relative z-20 mx-auto h-full bg-white  dark:bg-slate-900 dark:text-white lg:px-2">
 		<Navbar bind:dark />
 		<main>
 			<slot />

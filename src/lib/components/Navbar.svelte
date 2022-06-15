@@ -3,7 +3,9 @@
 	export let dark: boolean
 </script>
 
-<nav class="sticky top-0 z-20 mx-auto  py-6 sm:px-6 ">
+<nav
+	class="sticky top-0 z-20 mx-auto  bg-white bg-opacity-80 py-6 dark:bg-slate-900 dark:bg-opacity-80 sm:px-6 "
+>
 	<ul class="container mx-auto flex max-w-4xl items-center justify-between px-6">
 		<NavbarLink linksTo="/">Erik Beem</NavbarLink>
 		<NavbarLink linksTo="/blog">Blog</NavbarLink>

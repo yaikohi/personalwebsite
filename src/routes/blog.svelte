@@ -18,28 +18,31 @@
 	export let images: any
 </script>
 
-<div class="container mx-auto grid-cols-1 md:max-w-xl lg:max-w-6xl">
-	<section class="p-12 text-left">
-		<h1 class="pt-2 pb-4">Work in progress page</h1>
-		<h2 class="py-2">Enjoy lorem ipsum and leonberger dogs here</h2>
-		<ul class="px-4">
-			<li class="list-disc font-firacode">The images are statically loaded from the server.</li>
-			<li class="list-disc font-firacode">
-				The blog posts are dynamically fetched on the client-side.
-			</li>
-		</ul>
+<div class="container mx-auto md:max-w-xl md:grid-cols-1 lg:max-w-6xl">
+	<section class="mt-20 p-12 text-left">
+		<h1 class="pt-2 font-ptsans">Welcome to my &nbsp;'Work in progress' page</h1>
+		<h2 class="mt-7 py-2 font-ptsans text-4xl sm:mt-2">
+			Enjoy lorem ipsum and leonberger dogs here!
+		</h2>
 	</section>
 	<div class="grid lg:grid-cols-2 ">
 		{#each $posts as post}
 			<section
-				class="m-12 flex flex-col bg-slate-100 py-10 px-8 dark:bg-slate-700 dark:text-white lg:max-w-md"
+				class="relative m-2 flex max-h-[600px] flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800 dark:text-white  max-w-lg"
 			>
-				<img src={images[post.id]} alt="Leonberger dog" />
-				<h2 class="py-2 font-bold">{post.title.substring(0, 20)}</h2>
+				<img
+					class="mb-4 overflow-hidden rounded-xl object-cover saturate-100 transition-all delay-200 ease-in-out hover:saturate-200"
+					src={images[post.id]}
+					alt="Leonberger dog"
+				/>
+				<h2 class="py-2 font-ptsans font-bold capitalize">{post.title}</h2>
 				<div class="pl-2">
-					<p class="py-2 font-light">{post.body}</p>
+					<p class="overflow-hidden py-2 font-sourcesans font-light">
+						{post.body}
+						{post.body}
+					</p>
 				</div>
-				<a class="pt-10 font-medium" href={`/blog/${post.id}`}>Read more...</a>
+				<a class="py-4 font-sourcesans font-medium " href={`/blog/${post.id}`}>Read more...</a>
 			</section>
 		{/each}
 	</div>

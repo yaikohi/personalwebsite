@@ -12,7 +12,7 @@
 	}
 
 	h1 {
-		@apply text-5xl;
+		@apply text-5xl font-bold leading-10;
 	}
 
 	h2 {

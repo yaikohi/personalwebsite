@@ -27,9 +27,36 @@
 </script>
 
 <div class="container mx-auto px-6 md:max-w-xl lg:max-w-4xl ">
-	<article class="flex flex-col py-4">
-		<img class="lg:max-w-sm" src={image} alt="dog" />
-		<h2 class="py-5">{blogPost.title}</h2>
-		<p class="">{blogPost.body}</p>
+	<article class="mt-20 flex  flex-col py-4">
+		<h1 class="py-5 font-ptsans font-bold capitalize">{blogPost.title}</h1>
+
+		<p class="max-w-xl font-sourcesans text-xl">
+			{blogPost.body}
+			{blogPost.body}
+			<br />
+			<br />
+			{blogPost.body}
+			{blogPost.body}
+			<br />
+			<br />
+			{blogPost.body}
+			{blogPost.body}
+			{blogPost.body}
+			<br />
+			{blogPost.body}
+			{blogPost.body}
+			<br />
+			<br />
+			{blogPost.body}
+			{blogPost.body}
+			{blogPost.body}
+		</p>
+		<div class="z-0 bg-slate-400 bg-gradient-to-l from-black to-transparent">
+			<img
+				class="z-20 max-w-xs bg-white saturate-0 transition-all delay-200 ease-in-out hover:saturate-50 md:max-w-md "
+				src={image}
+				alt="dog"
+			/>
+		</div>
 	</article>
 </div>
