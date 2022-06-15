@@ -7,8 +7,6 @@
 		const json = await response.json()
 		const images = json.data
 		const image = images[id]
-		console.log(image)
-		console.log(images)
 
 		return {
 			props: {
