@@ -14,3 +14,6 @@ Deployed with vercel.
 3. `Fira Code` by _tonsky_ on [github](https://github.com/tonsky/FiraCode)
 
 4. 'Using fetch sveltekit' on [rodneylab.com](https://rodneylab.com/using-fetch-sveltekit/)
+
+5. Typescript giving me an error about not finding a module a week after developing this application for some reason. [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) Solved by adding `preprocess.typescript: true` inside of the `svelte.config.js`. Actually didn't fix anything nevermind lol.
+
