@@ -32,7 +32,7 @@
 	<div class="grid lg:grid-cols-2 ">
 		{#each posts as post}
 			<section
-				class="relative m-2 flex max-h-[600px] flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800 dark:text-white  max-w-lg"
+				class="relative m-2 flex max-h-[600px] max-w-lg flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800  dark:text-white"
 			>
 				<img
 					class="mb-4 overflow-hidden rounded-xl object-cover saturate-100 transition-all delay-200 ease-in-out hover:saturate-200"

@@ -33,31 +33,31 @@
 	const date = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full' }).format(today)
 </script>
 
-<div class="mx-auto block max-w-7xl mt-20">
-	<div class="px-16 md:max-w-xl lg:max-w-4xl flex flex-row justify-between ">
+<div class="mx-auto mt-20 block max-w-7xl">
+	<div class="flex flex-row justify-between px-16 md:max-w-xl lg:max-w-4xl ">
 		<!-- <div class="h-full lg:block hidden bg-red-900">something</div> -->
 		<article class="flex h-full flex-col py-4">
 			<!-- Title -->
-			<h1 class="pt-5 mb-4 font-ptsans font-bold capitalize">{blogPost.title}</h1>
+			<h1 class="mb-4 pt-5 font-ptsans font-bold capitalize">{blogPost.title}</h1>
 			<!-- Date posted -->
-			<p class="py-2 italic text-sm">
+			<p class="py-2 text-sm italic">
 				Date posted: <time datetime={date}> {date} </time>
 			</p>
 			<!-- Image -->
 			<div
-				class="z-0 bg-transparent mt-12 rounded-l-3xl bg-gradient-to-r dark:from-slate-800 from-slate-200 to-transparent"
+				class="z-0 mt-12 rounded-l-3xl bg-transparent bg-gradient-to-r from-slate-200 to-transparent dark:from-slate-800"
 			>
 				<img
-					class="z-20 pl-5 py-5 rounded-3xl saturate-100 transition-all delay-200 ease-in-out hover:saturate-200 "
+					class="z-20 rounded-3xl py-5 pl-5 saturate-100 transition-all delay-200 ease-in-out hover:saturate-200 "
 					src={image}
 					alt="dog"
 				/>
 			</div>
 			<!--  Subtitle -->
 			<div
-				class="w-full border-l-4 dark:border-l-slate-100 border-l-slate-200 py-8 divide mb-8 mt-6"
+				class="divide mb-8 mt-6 w-full border-l-4 border-l-slate-200 py-8 dark:border-l-slate-100"
 			>
-				<h2 class="italic dark:text-slate-400 text-slate-600 pl-8 ">
+				<h2 class="pl-8 italic text-slate-600 dark:text-slate-400 ">
 					Est {blogPost.title}
 					{blogPost.title}
 				</h2>
