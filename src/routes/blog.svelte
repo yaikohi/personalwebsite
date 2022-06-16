@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import type { TBlogPost } from './query/blog.json'
 	import type { Load } from '@sveltejs/kit'
+
 	export const load: Load = async ({ fetch }) => {
 		const response = await fetch('query/blog.json')
 		const json = await response.json()
@@ -23,13 +24,13 @@
 </script>
 
 <div class="container mx-auto md:max-w-xl md:grid-cols-1 lg:max-w-6xl">
-	<section class="mt-20 p-12 text-left">
+	<section class="p-12 text-left">
 		<h1 class="pt-2 font-ptsans">Welcome to my &nbsp;'Work in progress' page</h1>
 		<h2 class="mt-7 py-2 font-ptsans text-4xl sm:mt-2">
 			Enjoy lorem ipsum and leonberger dogs here!
 		</h2>
 	</section>
-	<div class="grid lg:grid-cols-2 ">
+	<div class="grid mt-12 lg:grid-cols-2 ">
 		{#each posts as post}
 			<section
 				class="relative m-2 flex max-h-[600px] max-w-lg flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800  dark:text-white"
