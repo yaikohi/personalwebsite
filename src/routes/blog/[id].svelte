@@ -38,7 +38,7 @@
 		<!-- <div class="h-full lg:block hidden bg-red-900">something</div> -->
 		<article class="flex h-full flex-col py-4">
 			<!-- Title -->
-			<h1 class="pt-5 font-ptsans font-bold capitalize">{blogPost.title}</h1>
+			<h1 class="pt-5 mb-4 font-ptsans font-bold capitalize">{blogPost.title}</h1>
 			<!-- Date posted -->
 			<p class="py-2 italic text-sm">
 				Date posted: <time datetime={date}> {date} </time>
