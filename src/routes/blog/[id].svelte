@@ -45,7 +45,7 @@
 			</p>
 			<!-- Image -->
 			<div
-				class="z-0 bg-transparent mt-12 rounded-l-3xl bg-gradient-to-r from-slate-800 to-transparent"
+				class="z-0 bg-transparent mt-12 rounded-l-3xl bg-gradient-to-r dark:from-slate-800 from-slate-200 to-transparent"
 			>
 				<img
 					class="z-20 pl-5 py-5 rounded-3xl saturate-100 transition-all delay-200 ease-in-out hover:saturate-200 "
@@ -54,9 +54,11 @@
 				/>
 			</div>
 			<!--  Subtitle -->
-			<div class="w-full border-l-4 border-l-slate-100 py-8 divide mb-8 mt-6">
-				<h2 class="italic text-slate-400 pl-8 ">
-					{blogPost.title}
+			<div
+				class="w-full border-l-4 dark:border-l-slate-100 border-l-slate-200 py-8 divide mb-8 mt-6"
+			>
+				<h2 class="italic dark:text-slate-400 text-slate-600 pl-8 ">
+					Est {blogPost.title}
 					{blogPost.title}
 				</h2>
 			</div>
