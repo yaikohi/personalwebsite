@@ -18,6 +18,9 @@
 	h2 {
 		@apply text-2xl;
 	}
+	p {
+		@apply text-lg;
+	}
 	/* Fira Code */
 	@font-face {
 		font-family: 'FiraCode';

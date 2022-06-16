@@ -1,21 +1,25 @@
 <script context="module" lang="ts">
+	import type { TBlogPost } from './query/blog.json'
 	import type { Load } from '@sveltejs/kit'
 	export const load: Load = async ({ fetch }) => {
-		const response = await fetch('blog.json')
+		const response = await fetch('query/blog.json')
 		const json = await response.json()
-		const images = json.data
+
+		const images: string[] = json.data.images
+		const posts: TBlogPost[] = json.data.posts
+
 		return {
 			props: {
 				images,
+				posts,
 			},
 		}
 	}
 </script>
 
 <script lang="ts">
-	import { posts } from '$lib/store/posts'
-
-	export let images: any
+	export let posts: TBlogPost[]
+	export let images: string[]
 </script>
 
 <div class="container mx-auto md:max-w-xl md:grid-cols-1 lg:max-w-6xl">
@@ -26,7 +30,7 @@
 		</h2>
 	</section>
 	<div class="grid lg:grid-cols-2 ">
-		{#each $posts as post}
+		{#each posts as post}
 			<section
 				class="relative m-2 flex max-h-[600px] flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800 dark:text-white  max-w-lg"
 			>

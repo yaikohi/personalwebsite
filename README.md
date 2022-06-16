@@ -12,3 +12,5 @@ Deployed with vercel.
 2. Adding custom fonts to tailwindcss - [How to use custom fonts in Tailwind CSS](https://blog.logrocket.com/how-to-use-custom-fonts-tailwind-css/)
 
 3. `Fira Code` by _tonsky_ on [github](https://github.com/tonsky/FiraCode)
+
+4. 'Using fetch sveltekit' on [rodneylab.com](https://rodneylab.com/using-fetch-sveltekit/)
