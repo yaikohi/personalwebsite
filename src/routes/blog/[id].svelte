@@ -18,6 +18,8 @@
 </script>
 
 <script lang="ts">
+	import Image from '$lib/components/Image.svelte'
+
 	import type { TBlogPost } from '../query/blog.json'
 
 	export let image: string
@@ -47,8 +49,8 @@
 			<div
 				class="z-0 mt-12 rounded-l-3xl bg-transparent bg-gradient-to-r from-slate-200 to-transparent dark:from-slate-800"
 			>
-				<img
-					class="z-20 rounded-3xl py-5 pl-5 saturate-100 transition-all delay-200 ease-in-out hover:saturate-200 "
+				<Image
+					className="z-20 rounded-3xl py-5 pl-5 saturate-100 transition-all delay-200 ease-in-out hover:saturate-200 "
 					src={image}
 					alt="dog"
 				/>

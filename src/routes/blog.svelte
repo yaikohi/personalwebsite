@@ -1,6 +1,7 @@
 <script context="module" lang="ts">
 	import type { TBlogPost } from './query/blog.json'
 	import type { Load } from '@sveltejs/kit'
+	import Image from '$lib/components/Image.svelte'
 
 	export const load: Load = async ({ fetch }) => {
 		const response = await fetch('query/blog.json')
@@ -35,8 +36,8 @@
 			<section
 				class="relative m-2 flex max-h-[600px] max-w-lg flex-col rounded-xl bg-slate-100 py-10 px-8 dark:bg-slate-800  dark:text-white"
 			>
-				<img
-					class="mb-4 overflow-hidden rounded-xl object-cover saturate-100 transition-all delay-200 ease-in-out hover:saturate-200"
+				<Image
+					className="mb-4 overflow-hidden rounded-xl object-cover saturate-100 transition-all delay-200 ease-in-out hover:saturate-200"
 					src={images[post.id]}
 					alt="Leonberger dog"
 				/>
