@@ -35,7 +35,7 @@
 	const date = new Intl.DateTimeFormat('en-GB', { dateStyle: 'full' }).format(today)
 </script>
 
-<div class="mt-2 mx-auto block max-w-7xl">
+<div class="mx-auto mt-2 block max-w-7xl">
 	<div class="px-16  lg:max-w-4xl ">
 		<!-- <div class="h-full lg:block hidden bg-red-900">something</div> -->
 		<article class="flex h-full flex-col py-4">

@@ -24,7 +24,7 @@
 	export let images: string[]
 </script>
 
-<div class="container mx-auto md:max-w-xl lg:max-w-6xl max-w-xl ">
+<div class="container mx-auto max-w-xl md:max-w-xl lg:max-w-6xl ">
 	<section class="p-12 text-left">
 		<h1 class="pt-2 font-ptsans">Welcome to my &nbsp;'Work in progress' page</h1>
 		<h2 class="mt-7 py-2 font-ptsans text-4xl sm:mt-2">Enjoy lorem ipsum and leonberger dogs!</h2>
@@ -41,8 +41,8 @@
 						alt="Leonberger dog"
 					/>
 					<h2 class="pt-8 pb-4 font-ptsans font-bold capitalize">{post.title}</h2>
-					<div class="max-w-md overflow-x-scroll h-64">
-						<p class="font-sourcesans indent-4 font-light">
+					<div class="h-64 max-w-md overflow-x-scroll">
+						<p class="indent-4 font-sourcesans font-light">
 							Qe
 							{post.body}
 							{post.body}
@@ -57,8 +57,8 @@
 				</section>
 			{/each}
 		</div>
-		<div class="m-8 hidden md:flex gap-2 flex-col items-start">
-			<h2 class="mt-7 mb-12 italic font-thin py-2 font-ptsans text-2xl sm:mt-2">
+		<div class="m-8 hidden flex-col items-start gap-2 md:flex">
+			<h2 class="mt-7 mb-12 py-2 font-ptsans text-2xl font-thin italic sm:mt-2">
 				I'll put Leonberger dogs here until I know what to do with this space.
 			</h2>
 			{#each posts as post}

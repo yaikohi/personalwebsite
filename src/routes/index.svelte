@@ -1,9 +1,6 @@
 <script lang="ts">
+	import Icon from '$lib/components/Icon.svelte'
 	import IconLink from '$lib/components/IconLink.svelte'
-	import GithubIcon from '$lib/components/icons/GithubIcon.svelte'
-	import LinkedInIcon from '$lib/components/icons/LinkedInIcon.svelte'
-	import TwitterIcon from '$lib/components/icons/TwitterIcon.svelte'
-
 	import Image from '../lib/components/Image.svelte'
 </script>
 
@@ -38,10 +35,12 @@
 		</div>
 		<div class="mb-10 flex-shrink-0 px-2 pt-4 lg:px-4 lg:pt-12">
 			<Image src="/images/me_irl.jpg" alt="me" />
-			<div class="flex flex-row justify-center mt-5 font-medium z-60">
-				<IconLink linksTo="https://twitter.com/hhhghq0"><TwitterIcon /></IconLink>
-				<IconLink linksTo="https://www.linkedin.com/in/erik-beem/"><LinkedInIcon /></IconLink>
-				<IconLink linksTo="https://github.com/yaikohi"><GithubIcon /></IconLink>
+			<div class="z-60 mt-5 flex flex-row justify-center font-medium">
+				<IconLink linksTo="https://twitter.com/hhhghq0"><Icon icon="twitter" /></IconLink>
+				<IconLink linksTo="https://www.linkedin.com/in/erik-beem/"
+					><Icon icon="linkedin" /></IconLink
+				>
+				<IconLink linksTo="https://github.com/yaikohi"><Icon icon="github" /></IconLink>
 			</div>
 		</div>
 	</div>
