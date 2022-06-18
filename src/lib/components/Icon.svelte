@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { isDarkTheme } from '$lib/store/theme'
+	import { isDarkTheme } from '../store/theme'
 
 	export let height: number = 24
 	export let width: number = 24
