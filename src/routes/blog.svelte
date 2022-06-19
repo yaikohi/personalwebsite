@@ -1,3 +1,23 @@
+<script context="module" lang="ts">
+	import type { TPostFile } from './api/posts.json'
+	import type { Load } from '@sveltejs/kit'
+	import Post from './blog/_post.svelte'
+	export const load: Load = async ({ fetch }) => {
+		const res = await fetch('/api/posts.json')
+		const posts = await res.json()
+
+		return {
+			props: {
+				posts,
+			},
+		}
+	}
+</script>
+
+<script lang="ts">
+	export let posts: any
+</script>
+
 <div class="container mx-auto max-w-xl md:max-w-xl lg:max-w-6xl ">
 	<div class="mx-8 ">
 		<section class="py-12 text-left">
@@ -15,5 +35,9 @@
 
 <div>
 	<h2>Blogposts</h2>
-	<a href="/blog/1">Blog one</a>
+	<div class="p-4 flex flex-col">
+		{#each posts as post}
+			<a class="px-4 py-2" href={`${post.path}`}>{post.meta.title}</a>
+		{/each}
+	</div>
 </div>

@@ -1,10 +1,10 @@
 
-type TPost = {
+export type TPost = {
     title: string,
     date: string,
 }
 
-type TPostFile = {
+export type TPostFile = {
     path: string,
     meta: TPost
 }
@@ -22,6 +22,7 @@ export const get = async () => {
     const allPosts = await Promise.all(
       iterablePostFiles.map(async ([path, resolver]) => {
         const { metadata } = await resolver()
+
         const postPath = path.slice(2, -3)
   
         return {
