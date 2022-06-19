@@ -6,7 +6,7 @@
 		</section>
 		<div class="flex flex-row">
 			<div class="flex flex-col" />
-			<h2 class="font-ptsans text-2xl font-thin italic sm:mt-2 pt-0 pb-8">
+			<h2 class="pt-0 pb-8 font-ptsans text-2xl font-thin italic sm:mt-2">
 				Some text I can put here as some sort of side-note or something.
 			</h2>
 		</div>
