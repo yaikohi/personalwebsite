@@ -5,4 +5,4 @@ import { writable } from 'svelte/store'
  *
  * 'Is dark theme active?'
  */
-export const isDarkTheme = writable(false)
+export const isDarkTheme = writable(true)
