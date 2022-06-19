@@ -1,7 +1,7 @@
 <script lang="ts">
 	import '../app.css'
-	import Navbar from '../lib/components/Navbar.svelte'
-	import { isDarkTheme } from '../lib/store/theme'
+	import Navbar from '$lib/components/Navbar.svelte'
+	import { isDarkTheme } from '$lib/store/theme'
 </script>
 
 <div class={`${$isDarkTheme ? 'dark' : ''} min-h-screen  bg-white dark:bg-slate-900 `}>

@@ -1,21 +1,23 @@
 <script lang="ts">
 	import Icon from '$lib/components/Icon.svelte'
 	import IconLink from '$lib/components/IconLink.svelte'
-	import Image from '../lib/components/Image.svelte'
+	import Image from '$lib/components/Image.svelte'
 </script>
 
 <div class=" relative z-10 mx-auto px-6 md:max-w-xl lg:max-w-4xl">
 	<div class="flex flex-col items-center space-x-8 md:px-0 lg:flex lg:flex-row lg:text-left">
 		<div class=" pb-4 lg:pb-0">
 			<h1
-				class="font-bold leading-loose text-slate-900 transition-colors dark:text-white md:text-5xl"
+				class="tracking-wide font-light leading-[3.125rem] pt-8 text-slate-900 transition-colors dark:text-white md:text-5xl"
 			>
-				nice to meet u
+				Nice to meet you, my name is <span class="font-medium dark:text-yellow-200 text-blue-800">
+					Erik Beem
+				</span>
 			</h1>
 			<div class="pt-6 text-slate-800 dark:text-white">
 				<section>
 					<p class="mb-4 text-3xl leading-8">
-						I currently work as a full-time intern at
+						...and I currently work as a full-time intern at
 						<a
 							href="https://pttrns.ai"
 							class="font-bold transition-colors hover:text-blue-500 dark:hover:text-blue-300"

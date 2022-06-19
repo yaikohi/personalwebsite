@@ -1,13 +1,15 @@
 <script lang="ts">
-	import { isDarkTheme } from '../store/theme'
+	import { isDarkTheme } from '$store/theme'
 
 	export let height: number = 24
 	export let width: number = 24
-	export let fill: string = $isDarkTheme ? 'white' : 'black'
+	// export let fill: string = $isDarkTheme ? 'white' : 'black'
 
 	export let icon: TIcons = 'home'
 
 	$: viewBox = icons[icon].viewbox
+
+	$: fill = $isDarkTheme ? 'white' : 'black'
 
 	const icons = {
 		github: {
@@ -29,8 +31,6 @@
 	}
 
 	type TIcons = 'github' | 'linkedin' | 'twitter' | 'home'
-
-	console.log(icons[icon])
 </script>
 
 <svg xmlns="http://www.w3.org/2000/svg" {width} {height} {fill} {viewBox}
