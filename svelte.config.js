@@ -1,5 +1,7 @@
 import adapter from '@sveltejs/adapter-auto'
 import preprocess from 'svelte-preprocess'
+import { mdsvex } from 'mdsvex'
+
 import { resolve } from 'path'
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -11,7 +13,19 @@ const config = {
 			postcss: true,
 			typescript: true,
 		}),
+		mdsvex({
+			extensions: ['.md'],
+			layout: {
+				/**
+				 * Tells mdsvex to use this file as a layout component
+				 *  for the files inside the 'routes/blog' folder
+				 */
+				blog: 'src/routes/blog/_post.svelte',
+			},
+		}),
 	],
+
+	extensions: ['.svelte', '.md'],
 
 	kit: {
 		adapter: adapter(),

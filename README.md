@@ -16,3 +16,5 @@ Deployed with vercel.
 4. 'Using fetch sveltekit' on [rodneylab.com](https://rodneylab.com/using-fetch-sveltekit/)
 
 5. Typescript giving me an error about not finding a module a week after developing this application for some reason. [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) Solved by adding `preprocess.typescript: true` inside of the `svelte.config.js`. Actually didn't fix anything nevermind lol.
+
+6. Building a static sveltekit markdown site by [Josh Collins](https://joshcollinsworth.com) - [blog on his website](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)

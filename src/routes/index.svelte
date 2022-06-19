@@ -8,9 +8,9 @@
 	<div class="flex flex-col items-center space-x-8 md:px-0 lg:flex lg:flex-row lg:text-left">
 		<div class=" pb-4 lg:pb-0">
 			<h1
-				class="tracking-wide font-light leading-[3.125rem] pt-8 text-slate-900 transition-colors dark:text-white md:text-5xl"
+				class="pt-8 font-light leading-[3.125rem] tracking-wide text-slate-900 transition-colors dark:text-white md:text-5xl"
 			>
-				Nice to meet you, my name is <span class="font-medium dark:text-yellow-200 text-blue-800">
+				Nice to meet you, my name is <span class="font-medium text-blue-800 dark:text-yellow-200">
 					Erik Beem
 				</span>
 			</h1>
