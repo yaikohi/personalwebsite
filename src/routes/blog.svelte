@@ -35,7 +35,7 @@
 
 <div>
 	<h2>Blogposts</h2>
-	<div class="p-4 flex flex-col">
+	<div class="flex flex-col p-4">
 		{#each posts as post}
 			<a class="px-4 py-2" href={`${post.path}`}>{post.meta.title}</a>
 		{/each}

@@ -29,14 +29,10 @@ const config = {
 
 	kit: {
 		adapter: adapter(),
-		vite: {
-			resolve: {
-				alias: {
-					$components: resolve('./src/lib/components'),
-					$lib: resolve('./src/lib'),
-					$store: resolve('./src/lib/store'),
-				},
-			},
+		alias: {
+			$components: resolve('./src/lib/components'),
+			$lib: resolve('./src/lib'),
+			$store: resolve('./src/lib/store'),
 		},
 	},
 }
