@@ -27,6 +27,7 @@ const config = {
 
 	extensions: ['.svelte', '.md'],
 
+	// https://kit.svelte.dev/docs/configuration#alias
 	kit: {
 		adapter: adapter(),
 		alias: {
