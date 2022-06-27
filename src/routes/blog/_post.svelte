@@ -14,9 +14,16 @@
 	 */
 	export let title
 	export let date
+	export let summary
 </script>
 
-<h1>{title}</h1>
-<p>Published: {date}</p>
-
-<slot />
+<article class="mx-auto max-w-2xl">
+	<header class="mx-auto max-w-2xl mt-20 mb-14">
+		<h1 class="pb-4 font-medium">{title}</h1>
+		<h2 class="italic font-light">{summary}</h2>
+		<h3 class="text-right pt-8 text-sm text-slate-800 dark:text-slate-400">Published: {date}</h3>
+	</header>
+	<div>
+		<slot />
+	</div>
+</article>

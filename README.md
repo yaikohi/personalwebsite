@@ -18,3 +18,9 @@ Deployed with vercel.
 5. Typescript giving me an error about not finding a module a week after developing this application for some reason. [svelte-preprocess](https://github.com/sveltejs/svelte-preprocess) Solved by adding `preprocess.typescript: true` inside of the `svelte.config.js`. Actually didn't fix anything nevermind lol.
 
 6. Building a static sveltekit markdown site by [Josh Collins](https://joshcollinsworth.com) - [blog on his website](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)
+
+7. `<ul>` or `<ol>` - [w3.org](https://www.w3.org/TR/WCAG20-TECHS/H48.html)
+
+8. `<article>` - [Ben Racicot on stackoverflow](https://stackoverflow.com/a/54258592)
+
+9. Semantic html5 - [freecodecamp](https://www.freecodecamp.org/news/semantic-html5-elements/)

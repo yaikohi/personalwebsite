@@ -16,8 +16,9 @@
 	}
 
 	h2 {
-		@apply text-2xl;
+		@apply text-3xl;
 	}
+
 	p {
 		@apply text-lg;
 	}
