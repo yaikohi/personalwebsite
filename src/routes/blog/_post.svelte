@@ -17,11 +17,11 @@
 	export let summary
 </script>
 
-<article class="sm:mx-auto max-w-2xl mx-8">
-	<header class="mx-auto max-w-2xl mt-20 mb-14">
+<article class="mx-8 max-w-2xl sm:mx-auto">
+	<header class="mx-auto mt-20 mb-14 max-w-2xl">
 		<h1 class="pb-4 font-medium">{title}</h1>
-		<h2 class="italic font-light">{summary}</h2>
-		<h3 class="text-right pt-8 text-sm text-slate-800 dark:text-slate-400">Published: {date}</h3>
+		<h2 class="font-light italic">{summary}</h2>
+		<h3 class="pt-8 text-right text-sm text-slate-800 dark:text-slate-400">Published: {date}</h3>
 	</header>
 	<div>
 		<slot />
