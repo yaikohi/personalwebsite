@@ -12,7 +12,6 @@
 			<div class="flex justify-between space-x-10">
 				<NavbarLink linksTo="/">Home</NavbarLink>
 				<NavbarLink linksTo="/blog">Blog</NavbarLink>
-				<NavbarLink linksTo="/blogTest">Blog Test</NavbarLink>
 			</div>
 		</ul>
 		<div class="mt-2 hidden" />
