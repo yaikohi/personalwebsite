@@ -18,22 +18,6 @@
 
 <div class="mx-auto max-w-xl">
 	<div class=" mx-8 sm:mx-auto">
-		<div class="container max-w-xl md:max-w-xl lg:max-w-6xl ">
-			<section class="mt-14 mb-4 text-left">
-				<h1 class="font-ptsans">I became a blogger,</h1>
-				<h2 class="font-ptsans text-4xl sm:mt-4">
-					but I am also a professional hobbyist and time waster
-				</h2>
-			</section>
-			<div class="flex flex-row">
-				<div class="flex flex-col" />
-				<h2 class="mt-0 mb-8 font-ptsans text-2xl font-thin italic sm:mt-2">
-					text-reader, video-watcher, youtube-subscriber, game-gamer, household-developer, and a
-					full-time person
-				</h2>
-			</div>
-		</div>
-
 		<section class="mx-auto mt-12 max-w-xl">
 			<h2 class="font-extralight italic text-slate-500 dark:text-slate-300">Posts</h2>
 			<div class="flex flex-col">
