@@ -14,39 +14,27 @@
 					Erik Beem
 				</span>
 			</h1>
-			<section>
-				<p class="mb-4 text-3xl leading-8">
-					...and I currently work as a full-time student at the university of applied sciences in
-					Utrecht.
-				</p>
-
-				<div class="mb-10 flex-shrink-0 px-2 pt-4 lg:px-4 lg:pt-12">
-					<Image src="/images/me_irl.jpg" alt="me" />
-					<div class="z-60 mt-5 flex flex-row justify-center font-medium">
-						<IconLink linksTo="https://twitter.com/hhhghq0"><Icon icon="twitter" /></IconLink>
-						<IconLink linksTo="https://www.linkedin.com/in/erik-beem/"
-							><Icon icon="linkedin" /></IconLink
-						>
-						<IconLink linksTo="https://github.com/yaikohi"><Icon icon="github" /></IconLink>
-					</div>
-				</div>
-
-				<section class="mt-14 mb-4 text-left">
-					<h2 class="font-ptsans text-4xl sm:mt-4">
-						I am also a professional hobbyist and time waster
-					</h2>
-					<div class="flex flex-row">
-						<div class="flex flex-col" />
-						<h2 class="mt-0 mb-8 font-ptsans text-2xl font-thin italic sm:mt-2">
-							text-reader, video-watcher, youtube-subscriber, game-gamer, ADHD enjoyer, and
-							household-developer
-						</h2>
-					</div>
+			<div class="pt-6 text-slate-800 dark:text-white">
+				<section>
+					<p class="mb-4 text-3xl leading-8">
+						...and I currently work as a full-time student at the university of applied sciences in
+						Utrecht.
+					</p>
 					<p class="py-8 font-firacode text-xs font-light italic">
-						and working on this website 🚀🚀🚀
+						and working on this website. Check out my github for other stuff 🚀
 					</p>
 				</section>
-			</section>
+			</div>
+		</div>
+		<div class="mb-10 flex-shrink-0 px-2 pt-4 lg:px-4 lg:pt-12">
+			<Image src="/images/me_irl.jpg" alt="me" />
+			<div class="z-60 mt-5 flex flex-row justify-center font-medium">
+				<IconLink linksTo="https://twitter.com/hhhghq0"><Icon icon="twitter" /></IconLink>
+				<IconLink linksTo="https://www.linkedin.com/in/erik-beem/"
+					><Icon icon="linkedin" /></IconLink
+				>
+				<IconLink linksTo="https://github.com/yaikohi"><Icon icon="github" /></IconLink>
+			</div>
 		</div>
 	</div>
 </div>
