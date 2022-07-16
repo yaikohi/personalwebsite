@@ -1,3 +1,7 @@
+/**
+ * This is how API endpoints work in a sveltekit-based website.
+ */
+
 export const get = () => {
 	return {
 		body: {

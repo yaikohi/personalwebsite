@@ -17,18 +17,9 @@
 			<div class="pt-6 text-slate-800 dark:text-white">
 				<section>
 					<p class="mb-4 text-3xl leading-8">
-						...and I currently work as a full-time intern at
-						<a
-							href="https://pttrns.ai"
-							class="font-bold transition-colors hover:text-blue-500 dark:hover:text-blue-300"
-							target="_blank"
-							rel="noopener"
-							>PTTRNS.ai
-						</a>
-						while being a full-time student at the university of applied sciences in Utrecht.
+						...and I currently work as a full-time student at the university of applied sciences in
+						Utrecht.
 					</p>
-				</section>
-				<section>
 					<p class="py-8 font-firacode text-xs font-light italic">
 						I'm working on this website rn🚀🚀🚀
 					</p>
