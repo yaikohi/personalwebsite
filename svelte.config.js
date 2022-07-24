@@ -1,4 +1,4 @@
-import vercel from '@sveltejs/adapter-vercel'
+import adapter from '@sveltejs/adapter-auto'
 import preprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex'
 
@@ -29,11 +29,7 @@ const config = {
 
 	// https://kit.svelte.dev/docs/configuration#alias
 	kit: {
-		adapter: vercel({
-			edge: false,
-			external: [],
-			split: false,
-		}),
+		adapter: adapter(),
 		alias: {
 			$components: resolve('./src/lib/components'),
 			$lib: resolve('./src/lib'),
