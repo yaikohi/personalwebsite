@@ -8,7 +8,7 @@ export type TPostFile = {
 	meta: TPost
 }
 
-export const get = async () => {
+export const GET = async () => {
 	/**
 	 * vite function, imports files and returns an object
 	 * with the relative path as a key and the value being
