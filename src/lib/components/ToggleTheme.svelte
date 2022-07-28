@@ -18,7 +18,7 @@
 	 * Custom class naming and tailwindcss styling
 	 */
 	export let className: string = ''
-	let finalClass = `${className} text-black dark:text-white hover:border-y-2 dark:hover:border-yellow-300 hover:border-blue-900`
+	let finalClass = `${className} text-black dark:text-white hover:border-y-2 dark:hover:border-yellow-300 hover:-mt-2 hover:border-blue-900`
 </script>
 
 <button
