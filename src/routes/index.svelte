@@ -21,7 +21,7 @@
 						Utrecht.
 					</p>
 					<p class="py-8 font-firacode text-xs font-light italic">
-						and working on this website. Check out my github for other stuff 🚀
+						and working on this website. Check out my <a class="transition-colors hover:text-violet-500 dark:hover:text-violet-300"  href="https://github.com/yaikohi">github</a> for other stuff 🚀
 					</p>
 				</section>
 			</div>
